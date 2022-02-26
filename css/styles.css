@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.header {
+    background-image: url(/img/headerbackground.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 1350px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.site-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 30px 122px;
+}
+
+.nav__link {
+    font-family: 'Mulish' ,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid #EB242A;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 33px;
+    color: #EB242A;
+}
+
+.fa-phone-alt {
+    padding: 10px;
+    text-align: center;
+    color: #EB242A;
+    border: 2px solid #EB242A;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.header-text {
+    padding-left: 116px;
+    padding-bottom: 204px;
+    margin-bottom: 118px;
+}
+.header-title {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    width: 567px;
+    height: 193px;
+    color: #272D4E;
+}
+
+.header-sub__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #57606A;
+    width: 551px;
+    margin-bottom: 100px;
+}
+
+.header__link {
+    font-family: 'Roboto' , sans-serif;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    background: #EB242A;
+    border-radius: 60px;
+    color: #fff;
+}
+
+.header__link2 {
+    text-decoration: none;
+    font-size: 17px;
+    color: #94A2B3;
+    margin-left: 15px;
+}
+.header__link3 {
+    font-size: 17px;
+    color: #2B9FF3;
+}
+.header-img {
+    position: absolute;
+    left: 640px;
+    top: 90px;
+}
